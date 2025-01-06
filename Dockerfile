@@ -21,7 +21,7 @@ USER ${USER_ID}
 COPY --chown=${USER}:${USER_GROUP} . .
 
 # Set environment variables
-ENV HOST="0.0.0.0"
+ENV HOST="https://e2bf4de3-1c90-41eb-8661-103544ab107a.e1-us-east-azure.choreoapps.dev"
 ENV DISABLE_DEV_SERVER_HOST_CHECK=true
 ENV HTTPS=false
 
